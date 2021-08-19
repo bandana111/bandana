@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Notepad++
+Exec=env WINEPREFIX="/home/bandana/.wine" wine-stable C:\\\\windows\\\\command\\\\start.exe /Unix /home/bandana/.wine/dosdevices/c:/users/Public/Desktop/Notepad++.lnk
+Type=Application
+StartupNotify=true
+Path=/home/bandana/.wine/dosdevices/c:/Program Files (x86)/Notepad++
+Icon=1DE5_notepad++.0
+StartupWMClass=notepad++.exe

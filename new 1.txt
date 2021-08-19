@@ -1,0 +1,52 @@
+<html>
+<head>
+       <titlt>Loader</title>
+	   <script>
+	        window.onload=function( )
+			{
+                 document.getElementById('loader').style.display="none";
+				 document.getElementById('content').style.display="none";
+			}
+		</script>
+		<style>
+	        #loader
+			{
+			     border: 2px solid red;
+				 position: absolute;
+				 margin: auto;
+				 top: 0;
+				 bpttom: 0;
+				 left:0;
+				 right: 0;
+				 width: 200px;
+				 height:200px;
+			}	 
+			 #loader img
+			 {
+			     width: 200px;
+			 }
+
+			 
+		     #content
+			{
+                display: none;
+			}	
+			
+			#content img
+			{
+			     width: 100%;
+			}	 
+		</style>
+</head>
+
+<body>
+<div id="loader">
+
+</div>
+<div id="content">
+
+<div>
+</div>
+</body>
+
+</html>	   
